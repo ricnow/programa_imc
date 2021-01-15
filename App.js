@@ -41,7 +41,7 @@ export default class App extends Component<Props> {
     } else if (s.resultado < 40) {
       s.resultadoText = 'Obesidade Grau II';
     } else {
-      s.resultadoText = 'Obesidade Grau III (Mórbido)';
+      s.resultadoText = 'Obesidade Grau III';
     }
     this.setState(s);
   }
