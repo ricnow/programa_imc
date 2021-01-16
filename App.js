@@ -5,6 +5,7 @@ import {
   TextInput,
   TouchableOpacity,
   View,
+  StatusBar,
 } from 'react-native';
 
 type Props = {};
@@ -40,6 +41,7 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
+        <StatusBar backgroundColor="#fff" />
         <View style={styles.entrada}>
           <TextInput
             placeholder="Massa"
@@ -73,6 +75,7 @@ export default class App extends Component<Props> {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    alignContent: 'center',
   },
   entrada: {
     flexDirection: 'row',
@@ -82,9 +85,20 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     width: '50%',
     fontSize: 50,
-    marginTop: 24,
+    marginTop: 130,
+    borderBottomRightRadius: 2,
   },
   button: {
+    width: '60%',
+    alignSelf: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1,
+    borderColor: 'rgba(0,0,0,0.2)',
+
+    height: 100,
+    borderRadius: 40,
+    padding: 15,
     backgroundColor: '#89ffa5',
   },
   texto: {
