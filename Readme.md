@@ -14,3 +14,8 @@ O Programa IMC foi criado com base na aula do canal PROGRAMADOR BR do youtube. N
   - Mudei o posicionamento para ficar melhor centralizado
 
 Lembrando que esse app é somente para desenvolver habilidade na programação com react-native. E ainda será desenvolvido melhor com o tempo.
+
+License
+----
+
+MIT
