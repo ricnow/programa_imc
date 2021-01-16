@@ -27,7 +27,7 @@ export default class App extends Component<Props> {
     } else if (s.resultado < 25) {
       s.resultadoText = 'Saudável';
     } else if (s.resultado < 30) {
-      s.resultadoText = 'Sobrepeso';
+      s.resultadoText = 'Sobre-peso';
     } else if (s.resultado < 35) {
       s.resultadoText = 'Obesidade Grau I';
     } else if (s.resultado < 40) {
